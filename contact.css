@@ -1,0 +1,338 @@
+.test-contact-page p,
+ul {
+  margin: 0;
+}
+
+.test-contact-page {
+  max-width: 1590px;
+  margin: 0 auto;
+  width: calc(100% - 30px);
+  background-color: inherit;
+}
+.test-contact-page ul > li,
+ol > li {
+  margin: 0;
+}
+
+.details-test-contact-page2 {
+  display: grid;
+  grid-template-columns: max-content 200px max-content max-content;
+  max-width: 795px;
+  margin: 0 auto;
+  width: 100%;
+  gap: 30px;
+}
+.details-test-contact-page2 a {
+  color: #000;
+}
+.details-test-contact-page2 a:hover {
+  color: #000;
+}
+
+.wrapper-test-contact-page {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 30px 0px;
+  gap: 20px;
+}
+
+.title-test-contact-page {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  color: #000;
+}
+.hr-test-contact-page {
+  border-top: 6px solid #9f1826;
+  max-width: 71px;
+  margin: 30px 0px 10px 0px;
+}
+
+.container-test-contact-page1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.wrapper-test-newformpage {
+  padding: 50px 0px;
+  max-width: 795px;
+  margin: 0 auto;
+  width: 100%;
+}
+.wrapper-test-newformpage form {
+  background-color: inherit;
+}
+.container-test-contact-page2 {
+  background-color: #f3f1f1;
+  padding: 70px 0px 0px 0px;
+  text-align: center;
+}
+
+.details-test-contact-page2 {
+  text-align: center;
+}
+
+.test-contact-page input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 0;
+  font-size: 12px;
+  height: auto !important;
+  background-color: inherit;
+}
+
+.test-contact-page input[type="text"]:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: -1px;
+  height: auto !important;
+}
+.test-contact-page input[type="email"]:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: -1px;
+  height: auto !important;
+}
+
+.test-contact-page input[type="tel"]:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: -1px;
+  height: auto !important;
+}
+.test-contact-page select:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: -1px;
+  height: auto !important;
+}
+.test-contact-page textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  margin-bottom: -1px;
+  height: auto !important;
+}
+.test-contact-page textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #000;
+  resize: none;
+  padding-bottom: 20px;
+  max-width: 705px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0;
+  background-color: inherit;
+}
+.test-contact-page textarea::placeholder {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.new-checkbox-contact-page {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  margin-top: 10px;
+}
+
+.p-new-checkbox-contact-page {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  max-width: 640px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.p-new-checkbox-contact-page a {
+  text-decoration: none;
+  color: #1976d2;
+}
+
+.submit-new-checkbox-contact-page {
+  margin-top: 20px;
+}
+
+.content-test-contact-page2 li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+}
+
+.title-test-contact-page2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  padding: 10px 0px;
+}
+.title-test-contact-page2 a {
+  color: #000;
+}
+.paragraph-test-contact-page2 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.pin-contact-page {
+  color: #9f1826;
+  font-size: 20px;
+}
+.pin-contact-page:hover {
+  color: #9f1826;
+  font-size: 20px;
+}
+
+.li-paragraph-test-contact-page2,
+.li-paragraph-test-contact-page2 a {
+  padding: 5px 0px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.testFebbtns-wrapper-large {
+  background-color: #1976d2;
+  padding: 10px 20px;
+  max-width: 230px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #1976d2;
+  border-radius: 5px;
+  box-sizing: unset;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+}
+.testFebbtns-wrapper-large:hover {
+  background-color: #1565c0;
+  color: #fff;
+}
+
+.floating-label-group {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.floating-label-group .floating-label {
+  font-size: 13px;
+  color: #cccccc;
+  position: absolute;
+  pointer-events: none;
+  top: 9px;
+  left: 12px;
+  transition: all 0.1s ease;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+  top: -15px;
+  bottom: 0px;
+  left: 0px;
+  font-size: 11px;
+  opacity: 1;
+  color: #404040;
+}
+
+.details-test-contact-page2-kentrika-location {
+  padding: 100px 40px;
+}
+.details-test-contact-page2-kentrika-location a {
+  color: #000;
+}
+.container-test-contact-page1 select {
+  font-size: 13px;
+  color: #000;
+}
+
+.title-test-contact-page2 a {
+  font-size: 14px;
+}
+
+@media (max-width: 1028px) {
+  .test-contact-page input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    max-width: 400px;
+  }
+  .test-contact-page textarea {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .wrapper-test-contact-page {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .wrapper-textarea,
+  .new-checkbox-contact-page {
+    padding-top: 20px;
+  }
+  .container-test-contact-page1 {
+    gap: 40px;
+  }
+  .details-test-contact-page2 {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+  }
+  .title-test-contact-page2 {
+    padding-top: 20px;
+  }
+  .container-test-contact-page2 {
+    background-color: #f3f1f1;
+    padding: 0px;
+  }
+  .details-test-contact-page2-kentrika-location {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper-test-newformpage {
+    padding: 50px 0px;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .details-test-contact-page2 {
+    grid-template-columns: 1fr;
+  }
+  .container-test-contact-page1 {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
